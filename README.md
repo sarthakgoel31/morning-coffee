@@ -2,6 +2,14 @@
 
 **Your entire day, planned in one command.**
 
+<p align="center">
+  <img src="docs/morning-coffee-output.png" alt="Morning Coffee terminal output" width="700" />
+</p>
+
+<p align="center">
+  <img src="docs/morning-coffee-card.png" alt="Morning Coffee skill card" width="500" />
+</p>
+
 ## What It Does
 
 Morning Coffee pulls live data from Google Calendar, Gmail, Slack, and your active projects, then assembles a detailed morning briefing with concrete action items and a time-blocked day plan. It optionally integrates 6E futures trading levels and a game plan. Instead of checking four apps and piecing together your day manually, you get everything organized in one structured output -- who needs a reply, what meetings need prep, and exactly what to work on in each time block.
