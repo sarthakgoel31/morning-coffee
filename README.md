@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="Morning Coffee Logo" width="120" />
+</p>
+
 # Morning Coffee
 
 **Your entire day, planned in one command.**
