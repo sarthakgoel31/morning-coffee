@@ -7,11 +7,11 @@
 **Your entire day, planned in one command.**
 
 <p align="center">
-  <img src="docs/morning-coffee-output.png" alt="Morning Coffee terminal output" width="700" />
+  <img src="docs/mc1.png" alt="Morning Coffee — calendar, action items, and context" width="700" />
 </p>
 
 <p align="center">
-  <img src="docs/morning-coffee-card.png" alt="Morning Coffee skill card" width="500" />
+  <img src="docs/mc2.png" alt="Morning Coffee — day plan with time blocks" width="700" />
 </p>
 
 ## Why
