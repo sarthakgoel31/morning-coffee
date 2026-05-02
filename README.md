@@ -90,6 +90,39 @@ The skill is a Claude Code agent definition -- no separate server or database. I
 | Day-of-week awareness | Live |
 | Graceful degradation | Live |
 
+## Fork This
+
+Use Morning Coffee in your own Claude Code setup in 3 steps:
+
+### Prerequisites
+
+- [Claude Code](https://claude.ai/code) installed
+- MCP servers configured: [Google Calendar](https://github.com/anthropics/claude-code), [Gmail](https://github.com/anthropics/claude-code), [Slack](https://github.com/anthropics/claude-code)
+
+### Install
+
+```bash
+# 1. Clone into your Claude workspace
+git clone https://github.com/sarthakgoel31/morning-coffee.git
+
+# 2. Copy the skill definition into Claude Code
+mkdir -p ~/.claude/skills/morning-coffee
+cp morning-coffee/SKILL.md ~/.claude/skills/morning-coffee/SKILL.md
+
+# 3. Verify it works
+# In Claude Code, type: /morning-coffee
+```
+
+### Customize
+
+Open `SKILL.md` and adjust:
+- **Timezone** -- change `IST` to your timezone
+- **Trading section** -- remove the trading block if you don't trade (or swap for your own market)
+- **Project memory paths** -- point to your own project directories
+- **Noise filtering** -- add newsletter senders you want collapsed
+
+The skill reads whatever MCP servers are available and degrades gracefully. No Calendar? It skips it. No Slack? It continues with Gmail + memory.
+
 ---
 
 Built by [Sarthak Goel](https://github.com/sarthakgoel31)
